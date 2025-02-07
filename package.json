@@ -1,7 +1,7 @@
 {
-  "name": "n8n-nodes-impetus",
+  "name": "n8n-nodes-mylims",
   "version": "0.1.2",
-  "description": "Nó customizado para o n8n que conecta com a API da Impetus.",
+  "description": "Nó customizado para o n8n que conecta com a API do myLIMS.",
   "keywords": [
     "n8n-community-node-package"
   ],
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gustavobrigatti/n8n-nodes-impetus.git"
+    "url": "https://github.com/gustavobrigatti/n8n-nodes-mylims.git"
   },
   "main": "index.js",
   "scripts": {
@@ -30,10 +30,22 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/ImpetusApi.credentials.js"
+      "dist/credentials/myLIMSApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Impetus/Impetus.node.js"
+      "dist/nodes/myLIMS/Account.node.js",
+      "dist/nodes/myLIMS/AccountEmails.node.js",
+      "dist/nodes/myLIMS/AccountInfos.node.js",
+      "dist/nodes/myLIMS/Accounts.node.js",
+      "dist/nodes/myLIMS/AccountSecondaries.node.js",
+
+      "dist/nodes/myLIMS/Work.node.js",
+      "dist/nodes/myLIMS/WorkInfos.node.js",
+      "dist/nodes/myLIMS/WorkPriceItems.node.js",
+      "dist/nodes/myLIMS/Works.node.js",
+      "dist/nodes/myLIMS/WorkSamplePriceItems.node.js",
+      "dist/nodes/myLIMS/WorkSamples.node.js",
+      "dist/nodes/myLIMS/WorkSummaryPrices.node.js"
     ]
   },
   "devDependencies": {
