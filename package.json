@@ -33,19 +33,7 @@
       "dist/credentials/myLIMSApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/myLIMS/Account.node.js",
-      "dist/nodes/myLIMS/AccountEmails.node.js",
-      "dist/nodes/myLIMS/AccountInfos.node.js",
-      "dist/nodes/myLIMS/Accounts.node.js",
-      "dist/nodes/myLIMS/AccountSecondaries.node.js",
-
-      "dist/nodes/myLIMS/Work.node.js",
-      "dist/nodes/myLIMS/WorkInfos.node.js",
-      "dist/nodes/myLIMS/WorkPriceItems.node.js",
-      "dist/nodes/myLIMS/Works.node.js",
-      "dist/nodes/myLIMS/WorkSamplePriceItems.node.js",
-      "dist/nodes/myLIMS/WorkSamples.node.js",
-      "dist/nodes/myLIMS/WorkSummaryPrices.node.js"
+      "dist/nodes/myLIMS/myLIMS.node.js"
     ]
   },
   "devDependencies": {
