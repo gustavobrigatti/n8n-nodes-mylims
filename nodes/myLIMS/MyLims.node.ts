@@ -28,10 +28,10 @@ import {
 } from './WorkDescription';
 import { myLIMSApiRequest } from './GenericFunctions';
 
-export class myLIMS implements INodeType {
+export class MyLims implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'myLIMS',
-		name: 'myLIMS',
+		name: 'myLims',
 		icon: 'file:myLIMS.svg',
 		group: ['output'],
 		version: 1,

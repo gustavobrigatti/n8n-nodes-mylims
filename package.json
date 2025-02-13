@@ -33,7 +33,7 @@
       "dist/credentials/myLIMSApi.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/myLIMS/myLIMS.node.js"
+      "dist/nodes/myLIMS/MyLims.node.js"
     ]
   },
   "devDependencies": {
